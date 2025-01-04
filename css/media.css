@@ -1,0 +1,17 @@
+@media screen and (width < 768px){
+
+    .fb-content{
+      margin-left:-50px ;
+      margin-bottom: -50px;
+    }
+   .fb-content img{
+    width: 90%;
+   }
+   .fb-content .para1{
+    width: 90%;
+   }
+   form {
+        width: 100%;
+   }
+
+}

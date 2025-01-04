@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Facebook Homepage</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.6.0/remixicon.css">
+</head>
+<body>
+
+    
+    <header>
+        <div class="header-container">
+            <div class="logo-contant">
+                <div class="logo">
+                    <a href="#"><i class="ri-facebook-circle-fill"></i></a></div>
+                <div class="search-icon">
+                    <i class="ri-search-line"></i><input type="text" id="search-inp" placeholder="Search Facebook">
+                </div>
+            </div>
+
+            <ul class="menu">
+                <li><a href="#" class="active"><i class="ri-home-4-fill"></i></a></li>
+                <li><a href="#"><i class="ri-group-line"></i></a></li>
+                <li><a href="#"><i class="ri-video-line"></i></a></li>
+                <li><a href="#"><i class="ri-store-2-line"></i></a></li>
+                <li><a href="#"><i class="ri-user-community-line"></i></a></li>
+
+            </ul>
+
+            <ul class="icon-menu">
+                <li><a href="#"><i class="ri-grid-fill"></i></a></li>
+                <li><a href="#"><i class="fa-brands fa-facebook-messenger"></i></a></li>
+                <li><a href="#"><i class="ri-notification-2-fill"></i></a></li>
+                <li onclick="account_infoToggle()"><a href="#"><i class="ri-user-fill"></i></a></li>
+<!-- .......setting -->
+                <div class="account-info">
+                    <div id="dark-btn" class="">
+                        <span></span>
+                    </div>
+                    <div class="profile">
+                        <div class="name-pro">
+                            <a href="#" class="profile-pro"><i class="ri-user-fill"></i></a>
+                            <span>Chandan Tiwari</span>
+
+                        </div>
+                    
+                    </div>
+
+                    <ul class="profile-icon">
+                        <li><a href="#"><i class="ri-settings-2-fill"></i>Settings & privacy</a></li>
+                        <li><a href="#"><i class="ri-question-fill"></i>Settings & privacy</a></li>
+                        <li><a href="#"><i class="ri-settings-2-fill"></i>Display & accessibility</a></li>
+                        <li><a href="#"><i class="ri-folder-warning-fill"></i>Give feedback</a></li>
+                        <li><a href="#"><i class="ri-logout-box-r-fill"></i>Log out</a></li>
+                    </ul>
+                </div>
+                <!-- .......... -->
+            </ul>
+           
+        </div>
+        
+    </header>
+
+
+    <section id="banner">
+        <div class="banner-container">
+            <!-- /* left-bar  */ -->
+           <div class="left-bar">
+            <div class="inp-link">
+                <a href="#" class="left-ppp"><img src="./image/won_n.png">Chandan Tiwari</a>
+                <a href="#"><img src="./image/Find-friend.png">Find friend</a>
+                <a href="#"><img src="./image/watch.png">Memories</a>
+                <a href="#"><img src="./image/saved.png">Saved</a>
+                <a href="#"><img src="./image/group.png">Groups</a>
+                <a href="#"><img src="./image/video.png">Video</a>
+                <a href="#"><img src="./image/market-place.png">Marketplace</a>
+                <a href="#"><img src="./image/feed.png">Feeds</a>
+                <a href="#"><img src="./image/events.png">Events</a>
+                <a href="#"><img src="./image/ads.png">Ads manager</a>
+                <a href="#"><i class="ri-arrow-down-s-line"></i>See more</a>
+            </div>
+            <div class="shortcut-game">
+                <p>Your Shortcut</p>
+                <a href="#"><img src="./image/pool.png">8 Ball Pool</a>
+            </div>
+            <div class="end-part">
+                <ul class="last-part">
+                    <li><a href="#">Privacy .</a></li>
+                    <li><a href="#">Terms .</a></li>
+                    <li><a href="#">Advertising .</a></li>
+                    <li><a href="#">Ad choices .</a></li>
+                    <li><a href="#">Cookies .</a></li>
+                    <li><a href="#">More .</a></li>
+                    <li><a href="#"> Meta © 2024 .</a></li>
+                </ul>
+            </div>
+           </div>
+            <!-- /* left-bar  */ -->
+
+            <!-- main-content -->
+            <div class="main-content">
+
+                <div class="midle-header">
+                    <div class="m-logo">
+                        <img src="./image/won_n.png">
+                        <input type="text" id="mhead-in"
+                            placeholder="What's on your mind, Chandan?">
+                    </div>
+                    <div class="m-menu">
+                        <div class="activity">
+                            <img src="./image/video-fb.png">
+                            <p>Live video</p>
+                        </div>
+                        <div class="activity">
+                            <img src="./image/photos-videos.png">
+                            <p>Photo/video</p>
+                        </div>
+                        <div class="activity">
+                            <img src="./image/fb-feeling.png">
+                            <p>Feeling/activity</p>
+                        </div>
+                    </div>
+                    </div>
+
+           <div class="story-gall">
+            <div class="story1">
+               <img src="./image/plus.png" alt="">
+                <p>Create Story</p>
+            </div>
+            <div class="story2">
+               <img src="./image/sonapng.jpg" alt="">
+                <p>Sonakshi Singha</p>
+            </div>
+            <div class="story3">
+               <img src="./image/abppng.png" alt="">
+                <p>ABP Ananda</p>
+            </div>
+            <div class="story4">
+               <img src="./image/posenjit.jpg" alt="">
+                <p>Prosenjit Chaterjee</p>
+            </div>
+            <div class="story5">
+               <img src="./image/starjolsa.jpg" alt="">
+                <p>Star Jolsa</p>
+            </div>
+           </div>
+
+           <div class="post-feed">
+            <div class="mini-profile">
+                <div class="r-image">
+                    <img src="./image/raj.jpg">
+                </div>
+                <div class="mini-content">
+                    <a href="#" class="raj">Raj Chokraborty</a>
+                    <span class="date">25 december at 18:36 <i class="ri-earth-fill"></i></span>
+                </div>
+            </div>
+            <div class="post-para">
+                <p>বড়দিনের family entertainer, বড়দিনে রমরমিয়ে চলছে 
+                   <a href="#">#Shontaan</a>!<br> Book your tickets now:</p>
+                   <a href="#" class="post-lnk">in.bookmyshow.com/kolkata/movies/shontaan/ET00410628</a>
+                   <a href="#" class="translt">See Translate</a>
+            </div>
+
+            <div class="poster">
+                <img src="./image/sontan.jpg" alt="">
+            </div>
+            <div class="mini-profile">
+                <div class="bong-image">
+                    <img src="./image/bong.jpg">
+                </div>
+                <div class="mini-content">
+                    <a href="#" class="raj">দ্য বং কাহিনী</a>
+                    <span class="date">11h<i class="ri-earth-fill"></i></span>
+                </div>
+            </div>
+            <div class="bong-para">
+                <p>নমস্কার🙏 রাজ চক্রবর্তী পরিচালিত এই সন্তান ছবিটি দেখে এলাম কেমন <br>
+                     লাগলো তার একটা ছোট্ট লেখা পোস্ট করতে বাধ্য হলাম। <br>
+                      ঝগড়া করে লাভ নেই খারাপ বলে লাভ নেই , আমি সাধারণত এমন ধারার <br>
+                       ছবি দেখিনা, কিন্তু ছবি টা দেখার পর তো সত্যি বলতে কি চোখে জল চলে <br>
+                        এলো, বিশেষ করে লাস্ট স… See more</p>
+                        <a href="#" class="translt mt-2"> See translate</a>
+            </div>
+
+            <div class="emoji">
+                <ul class="emoji-list">
+                    <li><img src="./image/like.svg"></li>
+                    <li><img src="./image/love.svg"></li>
+                    <li><img src="./image/enjoy.svg"></li>
+                    <li>339</li>
+                </ul>
+
+                <div class="coomment">
+                    <a href="#" class="cm1">40 comments</a>
+                    <a href="#" class="cm1">2 shares</a>
+                </div>
+            </div>
+
+            <div class="end-social">
+                <ul class="en-social">
+                    <li><a href="#"><i class="ri-thumb-up-line"></i>Like</a></li>
+                    <li><a href="#"><i class="fa-regular fa-comment"></i>Comment</a></li>
+                    <li><a href="#"><i class="ri-whatsapp-line"></i>Send</a></li>
+                    <li><a href="#"><i class="ri-share-forward-line"></i>Share</a></li>
+                </ul>
+            </div>
+            
+           </div>
+
+
+
+           <div class="post-feed">
+            <div class="mini-profile">
+                <div class="r-image">
+                    <img src="./image/zee bangla.jpg">
+                </div>
+                <div class="mini-content">
+                    <a href="#" class="raj">Zee Bangla</a>
+                    <span class="date">26 december at 11:36 <i class="ri-earth-fill"></i></span>
+                </div>
+            </div>
+            <div class="post-para">
+                <p>নিচে দেওয়া Video Links থেকে আপনাদের পছন্দের Performance টি কে <br>
+                     Like করুন। <br>
+                    বুধবার বিকেল 5:00টা-র মধ্যে যে Performer সব থেকে বেশি Facebook Like <br> 
+                    👍 পাবেন, তিনি হয়ে যাবেন "S… See more</p>
+                   
+            </div>
+
+            <div class="poster">
+                <img src="./image/rukhmini.jpg" class="rukhmini">
+            </div>
+            <div class="mini-profile">
+                <div class="bong-image">
+                    <img src="./image/bong.jpg">
+                </div>
+                <div class="mini-content">
+                    <a href="#" class="raj">দ্য বং কাহিনী</a>
+                    <span class="date">11h<i class="ri-earth-fill"></i></span>
+                </div>
+            </div>
+            <div class="bong-para">
+                <p>নমস্কার🙏 রাজ চক্রবর্তী পরিচালিত এই সন্তান ছবিটি দেখে এলাম কেমন <br>
+                     লাগলো তার একটা ছোট্ট লেখা পোস্ট করতে বাধ্য হলাম। <br>
+                      ঝগড়া করে লাভ নেই খারাপ বলে লাভ নেই , আমি সাধারণত এমন ধারার <br>
+                       ছবি দেখিনা, কিন্তু ছবি টা দেখার পর তো সত্যি বলতে কি চোখে জল চলে <br>
+                        এলো, বিশেষ করে লাস্ট স… See more</p>
+                        <a href="#" class="translt mt-2"> See translate</a>
+            </div>
+
+            <div class="emoji">
+                <ul class="emoji-list">
+                    <li><img src="./image/like.svg"></li>
+                    <li><img src="./image/love.svg"></li>
+                    <li>907</li>
+                </ul>
+
+                <div class="coomment">
+                    <a href="#" class="cm1">40 comments</a>
+                    <a href="#" class="cm1">2 shares</a>
+                </div>
+            </div>
+
+            <div class="end-social">
+                <ul class="en-social">
+                    <li><a href="#"><i class="ri-thumb-up-line"></i>Like</a></li>
+                    <li><a href="#"><i class="fa-regular fa-comment"></i>Comment</a></li>
+                    <li><a href="#"><i class="ri-whatsapp-line"></i>Send</a></li>
+                    <li><a href="#"><i class="ri-share-forward-line"></i>Share</a></li>
+                </ul>
+            </div>
+            
+           </div>
+
+
+           <div class="post-feed">
+            <div class="mini-profile">
+                <div class="somay-image">
+                    <img src="./image/somay.jpg">
+                </div>
+                <div class="mini-content">
+                    <a href="#" class="raj">সময়ের গল্প</a>
+                    <span class="date">2 january at 18:36 <i class="ri-earth-fill"></i></span>
+                </div>
+            </div>
+            <div class="post-para">
+                <p>নতুন রুপে আসছেন আল্লু অর্জুন… See more 
+                   <a href="#">#Pushpa3</a></p>
+                   <!-- <a href="#" class="post-lnk">in.bookmyshow.com/kolkata/movies/shontaan/ET00410628</a> -->
+                   <a href="#" class="translt">See Translate</a>
+            </div>
+
+            <div class="poster">
+                <img src="./image/aa2.webp" alt="">
+            </div>
+            <!-- <div class="mini-profile">
+                <div class="bong-image">
+                    <img src="./image/bong.jpg">
+                </div>
+                <div class="mini-content">
+                    <a href="#" class="raj">দ্য বং কাহিনী</a>
+                    <span class="date">11h<i class="ri-earth-fill"></i></span>
+                </div>
+            </div> -->
+            <!-- <div class="bong-para">
+                <p>নমস্কার🙏 রাজ চক্রবর্তী পরিচালিত এই সন্তান ছবিটি দেখে এলাম কেমন <br>
+                     লাগলো তার একটা ছোট্ট লেখা পোস্ট করতে বাধ্য হলাম। <br>
+                      ঝগড়া করে লাভ নেই খারাপ বলে লাভ নেই , আমি সাধারণত এমন ধারার <br>
+                       ছবি দেখিনা, কিন্তু ছবি টা দেখার পর তো সত্যি বলতে কি চোখে জল চলে <br>
+                        এলো, বিশেষ করে লাস্ট স… See more</p>
+                        <a href="#" class="translt mt-2"> See translate</a>
+            </div> -->
+
+            <div class="emoji">
+                <ul class="emoji-list">
+                    <li><img src="./image/like.svg"></li>
+                    <li><img src="./image/love.svg"></li>
+                    <li><img src="./image/enjoy.svg"></li>
+                    <li>33K</li>
+                </ul>
+
+                <div class="coomment">
+                    <a href="#" class="cm1">2K comments</a>
+                    <a href="#" class="cm1">600 shares</a>
+                </div>
+            </div>
+
+            <div class="end-social">
+                <ul class="en-social">
+                    <li><a href="#"><i class="ri-thumb-up-line"></i>Like</a></li>
+                    <li><a href="#"><i class="fa-regular fa-comment"></i>Comment</a></li>
+                    <li><a href="#"><i class="ri-whatsapp-line"></i>Send</a></li>
+                    <li><a href="#"><i class="ri-share-forward-line"></i>Share</a></li>
+                </ul>
+            </div>
+            
+           </div>
+
+
+
+
+
+
+           
+
+
+            </div>
+
+            <!-- right-bar -->
+            <div class="right-bar">
+                <div class="sidebar-title">
+                    <p>Events</p>
+                    <a href="#">See All</a>
+                </div>
+
+                <div class="event">
+                    <div class="left-event">
+                        <h3>19</h3>
+                        <span>April</span>
+                    </div>
+                    <div class="right-event">
+                        <h4>Social Media</h4>
+                        <p><i class="ri-map-pin-2-fill"></i>West Bengal DumDum</p>
+                        <a href="#">More Info</a>
+                    </div>
+                    
+                </div>
+
+                <div class="event">
+                    <div class="left-event">
+                        <h3>02</h3>
+                        <span>October</span>
+                    </div>
+                    <div class="right-event">
+                        <h4>Marketing</h4>
+                        <p><i class="ri-map-pin-2-fill"></i>West Bengal DumDum</p>
+                        <a href="#">More Info</a>
+                    </div>
+                    
+                </div>
+                <div class="sidebar-title">
+                    <p>Advertising</p>
+                    <a href="#">Close</a>
+                </div>
+                <img src="./image/download.png" class="add-image">
+
+                <div class="sidebar-title">
+                    <p>Conversation</p>
+                    <a href="#">Hide</a>
+                </div>
+
+                <div class="online-list">
+                    <div class="online">
+                        <img src="./image/riya.jpg">
+                        <span><i class="ri-circle-fill"></i></span>
+                    </div>
+                    <p>Riya Dutta</p>
+                </div>
+
+                <div class="online-list">
+                    <div class="online">
+                        <img src="./image/mn.avif">
+                        <span><i class="ri-circle-fill"></i></span>
+                    </div>
+                    <p>Rahul Das</p>
+                </div>
+
+                <div class="online-list">
+                    <div class="online">
+                        <img src="./image/d.avif">
+                        <span><i class="ri-circle-fill"></i></span>
+                    </div>
+                    <p>Dwitipriya Mondal</p>
+                </div>
+
+                <div class="online-list">
+                    <div class="online">
+                        <img src="./image/sr.avif">
+                        <span><i class="ri-circle-fill"></i></span>
+                    </div>
+                    <p>Sourav Roy</p>
+                </div>
+
+                <div class="online-list">
+                    <div class="online">
+                        <img src="./image/n.avif">
+                        <span><i class="ri-circle-fill"></i></span>
+                    </div>
+                    <p>Nabamita Karmakar</p>
+                </div>
+
+
+
+            </div>
+
+        </div>
+    </section>
+    
+
+
+    <script src="./js/index.js"></script>
+</body>
+</html>

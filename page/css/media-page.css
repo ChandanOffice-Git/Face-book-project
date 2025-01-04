@@ -1,0 +1,18 @@
+@media screen and (width < 768px) {
+    .logo img{
+        width: 100px;
+    }
+    .heading-contend p{
+        font-size: 12px;
+        width: 55%;
+    }
+    .brize{
+        width: 100%;
+    }
+    .Sign{
+        display: none;
+    }
+    form{
+        display: none;
+    }
+}

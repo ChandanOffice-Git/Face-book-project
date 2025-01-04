@@ -1,0 +1,61 @@
+@media screen and (width < 768px){
+
+    
+    form{
+        margin-left:0;
+        width: 100%;
+    }
+    .create-img img{
+        width: 45%;
+    }
+    input[ type="text"]{
+        width: 100px;
+    
+    }
+    .f-date label{
+    padding-right: 117px;
+
+
+    }
+    .day-det{
+        padding-left:0px;
+    }
+    #day{
+  padding: 6px 10px 6px 0px;
+
+    }
+    #month{
+  padding: 6px 10px 6px 0px;
+
+    }
+    #year{
+  padding: 6px 10px 6px 0px;
+
+    }
+    .f-gen .gen{
+        padding-right: 151px;
+    }
+    .gen-det {
+        margin-left: 7px;
+    }
+
+    .f-bord{
+        padding: 6px 5px;
+       font-size: 10px;
+    }
+    .f-mbord{
+        padding: 6px 7px;
+       font-size: 10px;
+        
+
+    }
+    .f-pbord{
+        padding: 6px 7px;
+       font-size: 10px;
+
+    }
+    #register {
+        padding: 0px 25px;
+    }
+    
+}

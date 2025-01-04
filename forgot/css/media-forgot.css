@@ -1,0 +1,16 @@
+@media screen and (width<768px) {
+    .your-acc{
+        margin-left: 0px;
+        width: 100%;
+    }
+    header{
+        margin: auto;
+        
+    }
+    .container{
+        margin: auto;
+    }
+    form{
+        display: none;
+    }
+} 
